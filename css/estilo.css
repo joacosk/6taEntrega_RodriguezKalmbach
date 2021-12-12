@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  list-style: none;
+  font-size: 1em;
+  color: whitesmoke;
+  margin: 0.4vw;
+  padding: 0.4vw;
+}
+
+/*-------------- Fuentes */
+@font-face {
+  font-family: "Nagoda";
+  /* Antes de descargar el archivo, le decimos al buscador
+    que intente buscar en local la fuente con nombre
+    Cabin, Cabin Regular o Cabin-Regular */
+  src: url(../marca/Tipografías/Nagoda/Nagoda.woff) format("woff");
+}
+
+h1,
+h2 {
+    font-size: 1.4em;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+}
+
+.img-fluid{
+  max-height: 90vh;
+  width: auto;
+}
+
+
+/* Modificar fuente de Trilce*/
+.trilce_name {
+  font-family: Nagoda, Arial, Helvetica, sans-serif;
+  font-stretch: semi-expanded;
+  font-size: 1rem;
+}
+
+body {
+  background: linear-gradient(100deg, #f2cbc4, #df859e);
+}
+
+header {
+  height: 5%;
+}
+
+
+#carousel{
+    height: 10px;
+}
+
+
+
+/*----------- ESTILO FOOTER */
+.footer{
+    background-image: url("/marca/desierto_azul_f.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    width: 100%;
+    height: 8vw;
+    background-position: center;
+    
+    
+    display: relative;
+    
+    bottom: 0;
+}
+
+.footer h2{
+    color: #F3CAC4;
+    font-size: 1em;   
+
+}
+
+
+/*RESPONSIVE*/
+
+@media screen and (min-width:768px) {
+    h1,
+  h2 {
+    font-size: 2em;
+  }
+  p {
+    font-size: 1.3em;
+  }
+  .trilce_name {
+    font-size: 2rem;
+  }
+  .footer h2{
+    font-size: 2em;
+
+}
+}
+
+@media screen and (min-width:1200px) {
+    h1,
+    h2 {
+      font-size: 2em;
+    }
+    p {
+      font-size: 1em;}
+    .trilce_name {
+        font-size: 1.85rem;   
+      }
+    .footer h2{
+        font-size: 1.85em;
+
+    }
+}
