@@ -43,6 +43,10 @@ p {
   font-size: 1rem;
 }
 
+#trilce_footer{
+  height: 100%;
+}
+
 body {
   background: linear-gradient(100deg, #f2cbc4, #df859e);
 }
@@ -66,10 +70,7 @@ header {
     width: 100%;
     height: 8vw;
     background-position: center;
-    
-    
-    display: relative;
-    
+    display: relative;   
     bottom: 0;
 }
 
@@ -79,38 +80,57 @@ header {
 
 }
 
+.footer_logo{
+  display: flex;
+  justify-content: center;
+  height: 4vh;
+  width:auto;
+  padding: 0.2vh;
+}
 
 /*RESPONSIVE*/
 
 @media screen and (min-width:768px) {
-    h1,
-  h2 {
-    font-size: 2em;
-  }
-  p {
-    font-size: 1.3em;
-  }
-  .trilce_name {
-    font-size: 2rem;
-  }
-  .footer h2{
-    font-size: 2em;
+  h1,
+h2 {
+  font-size: 2em;
+}
+p {
+  font-size: 1.3em;
+}
+.trilce_name {
+  font-size: 2rem;
+}
+.footer h2{
+  font-size: 2em;
+}
 
+.footer_logo{
+  display: flex;
+  justify-content: center;
+  height: 6vh;
+  width:auto;
+  padding: 0.8vh;
 }
 }
 
 @media screen and (min-width:1200px) {
-    h1,
-    h2 {
-      font-size: 2em;
+  h1,
+  h2 {
+    font-size: 2em;
+  }
+  p {
+    font-size: 1em;}
+  .trilce_name {
+      font-size: 1.85rem;   
     }
-    p {
-      font-size: 1em;}
-    .trilce_name {
-        font-size: 1.85rem;   
-      }
-    .footer h2{
-        font-size: 1.85em;
+
+    .footer{
+      height: 6vw;
 
     }
+
+  .footer h2{
+      font-size: 1.85em;
+  }
 }
