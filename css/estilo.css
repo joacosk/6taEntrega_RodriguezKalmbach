@@ -54,14 +54,6 @@ p {
   animation-fill-mode: forwards;
 }
 
-@keyframes fadeIn {
-  0% {
-      opacity:0;}
-
-  100% {visibility: visible;
-      opacity:1;}
-  
-}
 
 
 /*----------- ESTILO BODY */
@@ -75,10 +67,6 @@ header {
   width: 100%;
   height: auto;
 }
-
-
-
-
 
 
 /*----------- ESTILO FOOTER */
@@ -133,4 +121,14 @@ p {
   .footer h2{
       font-size: 1.85em;
   }
+}
+
+
+@keyframes fadeIn {
+  0% {
+      opacity:0;}
+
+  100% {visibility: visible;
+      opacity:1;}
+  
 }
